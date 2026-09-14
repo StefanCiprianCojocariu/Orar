@@ -57,3 +57,22 @@ table {
     background-color: var(--class-color);
     border-radius: 5px;
 }
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    .day {
+        flex-direction: column;
+        padding: 15px 10px;
+        height: auto;
+    }
+
+    .day-name {
+        width: 100%;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    .schedule {
+        width: 100%;
+    }
+}
