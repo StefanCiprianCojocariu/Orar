@@ -14,6 +14,7 @@ body {
     display: flex;
     justify-content: center;
     background-attachment: fixed;
+    background-position: center;
     background-size: cover;
     height: 30%;
     margin-top: 1%;
@@ -74,5 +75,10 @@ table {
 
     .schedule {
         width: 100%;
+    }
+    
+    td {
+        font-size: 0.9em;
+        padding: 4px;
     }
 }
