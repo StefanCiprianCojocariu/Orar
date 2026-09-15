@@ -25,7 +25,7 @@ days = [
         name: 'Miercuri',
         image: 'miercuri.jpg',
         schedule: {
-            8: '6 B',
+            8: '6 A',
             9: '7 A',
             10: '7 C',
             12: '6 C'
